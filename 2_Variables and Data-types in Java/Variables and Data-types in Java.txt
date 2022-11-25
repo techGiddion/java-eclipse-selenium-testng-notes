@@ -1,0 +1,61 @@
+>> In Java a variable 
+	Is a container to store a value basically variable is the calling name of a memory location. 
+	Need to add a data-type before variable & based on the that only variable can store the value.
+
+>> There are three types of variable
+	local : Declare inside a method , scope inside a method , can not be static.
+	instance : Declare inside the class outside the method, need to create the object of same class to access the value , can not be static.
+	static : Declare inside the class outside the method, can use directly in any method.
+
+********************************************************************
+
+>> Data type 
+	Primitive data types - includes byte, short, int, long, float, double, boolean and char
+	Non-primitive data types - such as String, Arrays and Classes (you will learn more about these in a later chapter)
+ 
+
+>> byte 
+	size: 8-bit 
+	Minimum value is -128 (-2^7)
+	Maximum value is 127 (inclusive)(2^7 -1)
+	byte is four time smaller than an integer.
+	Default value is 0
+
+>> short
+	size: 16-bit 
+	Minimum value is -32,768 (-2^15)
+	Maximum value is 32,767 (inclusive) (2^15 -1)
+	A short is 2 times smaller than an integer
+	Default value is 0.
+
+>> int 
+	size: 32-bit 
+	Minimum value is - 2,147,483,648 (-2^31)
+	Maximum value is 2,147,483,647(inclusive) (2^31 -1)
+	The default value is 0
+
+>> long 
+	Long data type is a 64-bit signed two's complement integer
+	Minimum value is -9,223,372,036,854,775,808(-2^63)
+	Maximum value is 9,223,372,036,854,775,807 (inclusive)(2^63 -1)
+	default value is 0L
+
+>> Float 
+	Size = 32bit
+	Default value is 0.0f
+	Float data type is never used for precise values such as currency
+
+>> double
+	double data type is a double-precision 64-bit IEEE 754 floating point
+	Default value is 0.0d
+
+>> boolean
+	boolean data type represents one bit of information
+	There are only two possible values: true and false
+	Default value is false
+
+>> char 
+	Size = 16bit
+	Minimum value is '\u0000' (or 0)
+	Maximum value is '\uffff' (or 65,535 inclusive)
+	Char data type is used to store any character
