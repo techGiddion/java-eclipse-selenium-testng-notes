@@ -1,0 +1,17 @@
+>> Go to browser type  "" download git [check for following link https://git-scm.com/downloads]
+
+>> Download the git version, it will show you the version based on your OS system.
+
+>> Install git. 
+
+>> Once installation is Done go to CMD type git -v if you are getting a version your git is downloaded [Restart the system once if the version is not visible]
+
+>> To access git we are going to prefer gitBash
+	Reason: Git was developed and designed on Linux and most Git users use Linux and using Git Bash on Windows makes it a uniform experience.
+
+>> Open search box || type GitBash || if git bash is visible you are all set.
+
+>> How to clone the repository
+	1. Create one folder at your choice [This folder is going to get all the codes and course info]
+	2. Open git bash on that folder >> right click [Open git bash here] >> you can check the location by typing the command [PWD]
+	3. Type git clone URL [URL you can get from the description of youtube video]  
