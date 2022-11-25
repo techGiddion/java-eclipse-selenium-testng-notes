@@ -1,0 +1,53 @@
+
+public class Tutorial02 {
+	
+	
+//	>> In Java a variable 
+//	Is a container to store a value basically variable is the calling name of a memory location. 
+//	Need to add a data-type before variable & based on the that only variable can store the value.
+//
+//>> There are three types of variable
+//	local : Declare inside a method , scope inside a method , can not be static.
+//	instance : Declare inside the class outside the method, need to create the object of same class to access the value , can not be static.
+//	static : Declare inside the class outside the method, can use directly in any method.
+
+//	>> Data type 
+//	Primitive data types - includes byte, short, int, long, float, double, boolean and char
+//	Non-primitive data types - such as String, Arrays and Classes
+	
+	
+   byte val1 = 100;	
+   
+
+   short val2 = 1000;
+    
+  int val3 = 10000;   
+  
+  
+  long val4 = 20002020202020L;
+  
+  
+  
+  float val5 = 10.1f;
+  
+  
+double val6 = 123.456d;
+
+
+
+
+boolean val7 = false;  
+
+
+
+
+char val8 = 'A';
+
+
+String val9 = "My channel is techgiddion";
+
+  
+  
+   
+
+}
