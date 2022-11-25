@@ -1,0 +1,25 @@
+***Java installation***
+
+1. Open browser and type JDK download the below link should be visible [https://www.oracle.com/in/java/technologies/downloads/]
+
+2. Chose the Java version>> go to windows based on operating system  >> install the Installer
+
+3. Once the installation is done go add the JAVA home path in system variable
+	>>Edit system variables >> Advance >> new >> 
+	Variable name: Java_Home
+	Variable value : location of java-jdk folder [typically C:\Program Files\Java\jdk-17.0.5]
+4. Might need to restart the system once to verify JAVA installed successfully go to CMD and type java -version [if you are getting the output with java version its installed]
+
+
+***Eclipse installation***
+
+1. Open browser and type Download eclipse the below link should be visible [https://www.eclipse.org/downloads/] 
+
+2. Download packages >> Eclipse IDE for Java Developers [The essential tools for any Java developer, including a Java IDE, a Git client, XML Editor, Maven and Gradle integration]
+
+3. Click on : Create a Java project >> Give the name  >> click next >> Finish >> [If get a module info do no select ] after this one java project created for you with one SRC [empty folder] all project code will be inside the src folder
+
+
+
+
+
