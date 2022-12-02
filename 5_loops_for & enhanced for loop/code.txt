@@ -1,0 +1,38 @@
+
+public class Tutorial05 {
+	
+	//To iterate a part of code multiple times.
+
+
+	// -*structure and component*-
+
+	//Initialization: 
+	//Condition: 
+	//Increment/Decrement: 
+	//Statement: 
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+//		for(int i = 1; i<=5;i++) {
+//			System.out.println("techGiddion");
+//		}
+		
+		//for-each loop or enhnaced for loop is used to 
+		//iterate through elements of arrays and collections 
+
+		//array - an array or a collection
+		//item - each item of array/collection is assigned to this variable
+		//dataType - the data type of the array/collection
+
+		
+		int [] array = {1,2,3,4,5};
+		
+          for(int item:array) {
+	System.out.println(item);
+}
+
+	}
+
+}

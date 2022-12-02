@@ -1,0 +1,8 @@
+//	loop
+>>	To iterate a part of code multiple times.
+>>	Type of loops : while, do while , for and enhance for loop 
+
+
+//	for & enhanced for loop 
+>>	for loop is used to iterate the defined code multiple times if the iteration is not fixed.
+>>	Enhanced for loop is used to iterate the defined code multiple times if the iteration is not fixed and we must execute loop at least once.

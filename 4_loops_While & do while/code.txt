@@ -1,0 +1,40 @@
+
+public class Tutorial04 {
+	
+	//To iterate a part of code multiple times.
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//System.out.println("TechGiddion");
+
+		//initialization 
+		//condition
+		//Statement
+		//increment/decrement
+
+        int i = 1;
+//		while(i<=5) {
+//			
+//			System.out.println("TechGiddion");
+//			
+//			i++;
+//			
+//		}
+		
+		do {
+			System.out.println("TechGiddion");
+			i++;
+			
+		}while(i<=5);
+		
+			
+			
+			
+		
+		
+		
+	}
+
+}

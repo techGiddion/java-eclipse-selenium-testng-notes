@@ -1,0 +1,37 @@
+public class T3 {
+
+	
+String name;
+int year;
+
+	T3(String name, int year) {
+		
+		this.name = name;
+		this.year = year;
+		
+		
+	}
+	
+	public void getMessage() {
+		
+		
+		System.out.println("My Channel is "+name + " and its launched "+ year + " ago" );
+	}
+	
+	public static void fullName() {
+		
+		System.out.println("Tech"+"Giddion");
+	}
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+		T3 tt = new T3("techGiddion",1);
+		tt.getMessage();
+		fullName();
+		
+	}
+
+}

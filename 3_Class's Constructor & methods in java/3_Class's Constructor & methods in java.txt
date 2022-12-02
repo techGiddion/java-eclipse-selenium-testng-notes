@@ -1,0 +1,12 @@
+//	Class
+>>	A class is a type of object template which contains properties and methods. you can  create a class by using class keyword 
+>>	you can access the class - properties and methods by creating the object of the class 
+
+//Constructor and Methods 
+>>	Constructor is a method which executes by default when you create a object of a class [no need to call it]
+>>	Method is a function which will do the specified steps.
+
+/Share a class among other files.
+>>	no imports are required in classes in the same package. They don't even have to be public.
+>>    Just create a object of the class [which you want to share] and use it with reference.
+
