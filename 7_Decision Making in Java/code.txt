@@ -1,0 +1,144 @@
+
+public class Tutorial07 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/*
+		>>  	In java following are the Decision Making statement
+			1. if 
+			2. nested if
+			3. if-else
+			4. if-else-if ladder
+			5. switch
+			6. jump [break,countiue & return]
+		*/
+		
+		
+		
+		//    >>	if :  In case condition is true the 
+		//          block of code inside if statement will be executed.
+		
+		//>>    nested if: we can use if statements inside if statements as well : 
+//		In case condition is true the block of code inside if statement will be executed.
+
+		/*
+		//>>	if-else: 
+				based on the bollean value of condition [true/false]  
+				condition is true the block of code inside if statement will be executed.
+				condition is false the block of code inside else statement will be executed.
+		*/
+		
+		
+		/*>> if-else-if ladder
+		Decision can be made based on multiple options or conditions
+		As soon as any condition is true the block of code inside if statement will be executed and the rest of the ladder will be bypassed
+		If none of the conditions is true, then the final else statement will be executed. 
+
+*/
+
+		
+//		if(a>15)
+//		{
+//			
+//			
+//			System.out.println("Entering in the if condition");
+//			
+//			
+//			if (a<20) {
+//				System.out.println("The value of a is less then 20");
+//			}
+//			
+//			if (a>20) {
+//				System.out.println("The value of a is greater then 20");
+//			}
+//			
+//		}
+//		
+//		System.out.println(a);
+//		
+		
+//		
+//if (a>20) {
+//	System.out.println("The value of a is greater then 20");
+//	
+//}else {
+//	System.out.println("The value of a is less then 20");
+//	
+//}
+//		
+//				
+		//>> switch	Decision can be made based on multiple options
+
+
+/*
+>> jump 
+		break: can be used in switch cases or exiting a loop.
+		countinue: force an early iteration of a loop.
+		return: causes program control to transfer back to the caller of the method.
+
+*/
+		
+		
+//		int a = 3;
+//
+//		switch(a) {
+//		
+//		case 0:
+//		System.out.println("The value of a is zero");	
+//		break;
+//		
+//		case 1:
+//			System.out.println("The value of a is one");
+//			break;
+//			
+//		case 2:	
+//			System.out.println("The value of a is two");	
+//			break;
+//			
+//			default:
+//				System.out.println("The value of a is greater then 2");	
+
+
+
+		for (int i=1;i<=10;i++) {
+			
+			
+			if (i%2==0) {
+				return;
+			}
+			
+			System.out.println(i);	
+			}
+		
+		System.out.println("The end");
+		
+		
+		
+//		
+//		if(a==0) {
+//			
+//			System.out.println("The value of a is 0");
+//			
+//		}else if (a==1) {
+//			System.out.println("The value of a is 1");
+//
+//		}else if(a==2){
+//			System.out.println("The value of a is 2");
+//
+//			
+//		}else {
+//			System.out.println("The value of a is greater then 2");
+//
+			
+		}
+		
+
+		
+		
+		
+		
+
+	}
+
+
