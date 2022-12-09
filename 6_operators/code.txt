@@ -1,0 +1,78 @@
+
+public class Tutorial06 {
+	
+	
+	public static void main(String[] args) {
+		
+//		Unary: require only one operand and can perform : // ++ , -- , !
+//	    1. increment/decrement [pre & post]
+//		2. inverting the value of boolean
+		
+		// i++ , i = i +1 
+		// i-- , i = i-1
+		
+		int i = 10;
+		
+		System.out.println(--i);
+		
+		System.out.println(i);
+		
+		
+		System.out.println(!true);
+		
+		// >> 	Airthmatic : +,-,*,/,% 
+		
+		System.out.println(10+20); //30
+		System.out.println(10-20); //-10
+		System.out.println(10*20); //200
+		System.out.println(40/20); //2
+		System.out.println(10%2); //0
+		System.out.println(11%2); //30
+		
+		// >>    Logical : && [if one condition is fail it will not check second] 
+        //and || [if one condition is Pass it will not check second]  
+
+//>> 	Bitwise : & and |  [checks both the condition] 
+		
+		
+		int a = 2;
+		int b = 3;
+		
+		//System.out.println(a>b & a++>b++);
+		
+		
+	System.out.println(a<b | a++>b++);
+		
+		System.out.println(a);
+		System.out.println(b);
+		
+		
+		// >> 	Relational or conditional operators [> , < ,>=,<=,!= , ==]
+
+		
+		// >> 	Assignment operator a = 10; , a+=10 , b*=20 // a = a + 10 , b = b * 20; 
+		
+		
+		int j = 30 ;
+		j +=10; //j = j + 10
+		
+		System.out.println(j);
+		
+		
+		// >>    ternary operator : three operands (condition)?true-a:false - b
+		
+		
+		int h = (3<4)?5:6;
+		
+		System.out.println(h);
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

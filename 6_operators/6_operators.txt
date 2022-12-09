@@ -1,0 +1,52 @@
+>> 	What is operator & oprands ?
+	Operator: symbols used to perform operation on values [operands]
+	Operand: A value involved in the operation
+
+
+>>	In Java there are 8 types of operators
+
+	1.Unary 
+	2.Airthmatic 
+	3.Logical
+	4.Bitwise
+	5.Relational
+	6.Assignment
+	7.Ternary
+	8.Shift 
+
+
+
+>>	Unary: require only one operand and can perform :  ++ , -- , !
+      1. increment/decrement [pre & post]
+	System.out.println(i++ + " Post increment value");  post increment
+	System.out.println(i);  11 
+	System.out.println(++i + " Post increment value");  post increment 12
+	System.out.println(i); 12
+	2. inverting the value of boolean
+	 !true =	 false
+	3. negating an expression - tidal operators [all 1's to 0 and all 0 to 1's]
+	 int i = 10;
+	 int j = -10;
+	 System.out.println(~i);  -11
+	 System.out.println(~j);  9
+
+
+>> 	Airthmatic : +,-,*,/,% 
+
+>>   Logical : && [if one condition is fail it will not check second] and || [if one condition is Pass it will not check second]  
+
+>> 	Bitwise : & and |  [checks both the condition] 
+
+>> 	Relational or conditional operators [> , < ,>=,<=,!= , ==]
+
+>> 	Assignment operator a = 10; , a+=10 , b*=20  a = a + 10 , b = b * 20; 
+
+>>    ternary operator : three operands (condition)?true-a:false - b
+
+>> 	shift operators  
+	left hift : << is used to sshift all of the bits in value to the left side of a specified number of times
+	10<<2   10*2^2 = 10*4 = 40
+     
+	right shift >> is used to move the value of the left operand to right by the number of bits specified by the right operand
+      10>>2  10/2^2 = 10/4 = 2
+      20>>3  20/2^3 = 20/8 = 2
