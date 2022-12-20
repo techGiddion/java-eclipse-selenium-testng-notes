@@ -1,0 +1,49 @@
+>>	Learn TypeCast [type conversion and coercion]in Java?
+
+//	Type casting is a process that converts data type into another data type [Manually or Automatically] . 
+//	Manual conversion is done by programmer & automatic conversion is done by compiler.
+
+
+/*
+>>	There are two types of typecasting in JAVA.
+
+	* Widening ,automatic or implicit conversion. It is also known as type coercion. [Done by compiler]
+	* Narrowing or Explicit Conversion [Done by programmer]
+*/
+
+/*
+>>	Widening conversion takes place when two data types are automatically converted. 
+	
+	This happens when: 
+	* The two data types are compatible.
+	* When we assign a value of a smaller data type to a bigger data type.
+	* For Example, in java, the numeric data types are compatible with each other but no automatic conversion is supported from numeric type to char. 
+*/
+
+/*
+	Byte >> short >> int >> long >> float >> double
+*/
+
+/*
+>>	Narrowing or Explicit Conversion
+
+	If we want to assign a value of a larger data type to a smaller data type we perform explicit type casting or narrowing.  
+	This is useful for incompatible data types where automatic conversion cannot be done.
+	
+	Note: While assigning value to byte type the fractional part is lost and is reduced to modulo 256(range of byte). 
+*/
+
+
+/*
+>>	Type Promotion in Expressions
+	
+	While evaluating expressions, the intermediate value may exceed the range of operands and hence the expression value will be promoted. Some conditions for type promotion are:  
+	* Java automatically promotes each byte, short, or char operand to int when evaluating an expression.
+	* If one operand is long, float or double it promotes based on long, float and double.
+*/
+
+
+/*
+>> 	Explicit Type Casting in Expressions
+	While evaluating expressions, the result is automatically updated to a larger data type of the operand. But if we store that result in any smaller data type it generates a compile-	time error, due to which we need to typecast the result. 
+*/
