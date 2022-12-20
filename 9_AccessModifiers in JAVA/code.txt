@@ -1,0 +1,55 @@
+package javaLearning;
+
+ public class Tutorial09_01 {
+
+	protected String s = "TechGiddion";
+	
+	protected Tutorial09_01(){
+	
+		System.out.println("I am a protected constructor");
+	}
+	
+	protected void getInfo() {
+		
+		System.out.println("This is just a method");
+		
+	}
+	
+	
+}
+
+
+*********************************************************************
+
+package javaLearning;
+
+public class Tutorial09_02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Tutorial09_01 th = new Tutorial09_01();
+		System.out.println(th.s);
+		th.getInfo();
+
+	}
+
+}
+
+***************************************************************************
+package Test;
+import javaLearning.Tutorial09_01;
+
+public class Tutorial09_03 extends  Tutorial09_01{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Tutorial09_01 th = new Tutorial09_01();
+		Tutorial09_03 th = new Tutorial09_03();
+		System.out.println(th.s);
+		th.getInfo();
+
+	}
+
+}
