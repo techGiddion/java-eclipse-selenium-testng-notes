@@ -1,0 +1,42 @@
+#array #coding #computerscience #programming #javascript #code
+
+/*
+>>	What is an Array ?
+	In JAVA, An array is a container object that holds a fixed number of values of a single type. or
+	an array is a collection of similar type of elements. 
+	We can store primitive values or objects in an array in Java.	
+	The length of an array is established when the array is created. After creation, its length is fixed.
+	Arrays can be one dimensional or two dimensional [in this lecture we are going to focus on 1d array]
+	The index of an array starts with zero.
+
+*/ 
+
+/*
+>>	How to declare an Array
+	String[] Array = new String[5];
+	String Array[] = new String[5];
+	int Array[] = {1,2,3,4,5};
+>>	Length of the Array
+>>	Index of the array
+>>	how to add elements  in an array 
+>>	Print an array
+>>	out of bounds for length error
+
+*/
+
+
+		
+/*
+>> 	Methods In arrays
+	The Arrays class in java.util package is a part of the Java Collection Framework. 
+	This class provides static methods to dynamically create and access Java arrays. 
+	It consists of only static methods and the methods of Object class. 
+	The methods of this class can be used by the class name itself.
+	// sort the array
+	// convert to string 
+*/
+
+
+	
+
+
