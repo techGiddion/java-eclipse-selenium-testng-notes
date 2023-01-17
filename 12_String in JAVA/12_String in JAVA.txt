@@ -1,0 +1,57 @@
+
+>>	String in JAVA
+ 	String is an object which represents a sequence of characters. 
+	java.lang.String class is used to create a string object 	
+	The String is immutable in Java. [can not extend it]
+
+
+
+
+
+
+>>	There are two ways to define string in JAVA
+	1. Using String literal
+	2. Using new keyword.
+
+
+
+
+
+
+>>	String literal
+	This way string is created by using double quotes.
+	How it works? : each time we create a string literal JVM checks the "string constant pool" to check if string is in it or not.
+	if yes : a reference to the pooled instance is returned
+	if no: a new string instance is created & placed inside the pool 
+	* Use case: To make Java more memory efficient (because no new objects are created if it exists already in the string constant pool).	
+
+
+example: String text1 = "TechGiddion";
+	
+
+>>	By new keyword
+	String text2=new String("TechGiddion"); 
+	In such case, JVM will create a new string object in normal (non-pool) heap memory, and the literal "TechGiddion" will be placed in the string constant pool. 
+	The variable text2 will refer to the object in a heap (non-pool).
+
+
+>>	Note: String objects are stored in a special memory area known as the "string constant pool".
+
+
+>>	Methods for String
+	.length()
+	.charAt(index value)
+	.trim()
+	.isEmpty()
+	.toLowerCase()
+	.toUpperCase()
+	.replace(The char which needs to be replaced, the char which is the replacement)
+	split(value for split);
+
+>>	Converting a char [] to String
+
+
+>> 	Next line and Tab
+	to shift the program to next line we need to use \n , to add the extra space add \t
+
+
