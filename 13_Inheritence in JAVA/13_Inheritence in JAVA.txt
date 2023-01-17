@@ -1,0 +1,54 @@
+>> What is inheritance
+	1.	Inheritance is an important part of OOPs (Object Oriented programming system).
+	2.	In this mechanism one object(child/sub class) can acquire all the properties & behavior of a parent Object (Super class)
+	3. 	The idea behind inheritance in Java is that you can create new classes that are built upon existing classes. 
+	4.	When you inherit from an existing class, you can reuse methods and fields of the parent class. 
+		Moreover, you can add new methods and fields in your current class also.
+	5.	Inheritance represents the IS-A relationship which is also known as a parent-child relationship.
+
+
+>>	Why use inheritance in java
+	1. For Method Overriding (so runtime polymorphism can be achieved).
+	2. For Code Reusability.
+
+
+>>	Differnt terms used in Inheritance
+		1. Class: A class is a group of objects which have common properties. 
+				  It is a template or blueprint from which objects are created.
+		
+		2. Sub Class/Child Class: Subclass is a class which inherits the other class. 
+								  It is also called a derived class, extended class, or child class.
+		
+		3. Super Class/Parent Class: Superclass is the class from where a subclass inherits the features. 
+									 It is also called a base class or a parent class.
+									 
+		4. Reusability: As the name specifies, reusability is a mechanism which facilitates you to reuse the fields 
+						and methods of the existing class when you create a new class. 
+						You can use the same fields and methods already defined in the previous class.
+
+
+
+>>	use keyword extends: The extends keyword indicates that you are making a new class 
+		that derives from an existing class. The meaning of "extends" is to increase the functionality.
+
+
+>>	Types of inheritance in java
+	
+	Three types of inheritance in java: single, multilevel and hierarchical.
+	
+	Single: When a class inherits another class, it is known as a single inheritance. 
+
+	Multilevel: When there is a chain of inheritance, it is known as multilevel inheritance. 
+
+	Hierarchical: When two or more classes inherits a single class, it is known as hierarchical inheritance.
+
+
+>> 	Multiple and hybrid inheritance is supported through interface only. [Not supported by inheritence]
+	
+	Why multiple inheritance is not supported in java?
+	To reduce the complexity and simplify the language
+
+
+	Consider a scenario where A, B, and C are three classes. The C class inherits A and B classes. If A and B classes have the same method and you call it from child class object, there 	will be ambiguity to call the method of A or B class.
+
+	Since compile-time errors are better than runtime errors, Java renders compile-time error if you inherit 2 classes. So whether you have same method or different, there will be 	compile time error.
